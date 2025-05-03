@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using School.Data.DTOs;
 using School.Data.Entities;
 using School.Infrastructure.Data;
 using School.Infrastructure.Interfaces;
@@ -19,9 +20,23 @@ namespace School.Service.Services
         {
            _studentRepository = studentRepository;
         }
+
+        public async Task<string> AddStudentAsync(Student studentFromRequest)
+        {
+            var studentFromDB = _studentRepository.GetTableNoTracking().
+                Where(s => s.StudentName == studentFromRequest.StudentName).
+                Include(d => d.Department);
+            if (studentFromDB != null)
+                return "Exit";
+         await _studentRepository.AddAsync(studentFromRequest);
+
+            return "success";
+        }
+
         public async Task<List<Student>> GetAllStudentsAsync()
         {
             return await _studentRepository.GetStudentAsync();
         }
+        
     }
 }

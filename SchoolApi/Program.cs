@@ -1,10 +1,12 @@
 
 using Microsoft.EntityFrameworkCore;
 using School.Core;
+using School.Data.Entities;
 using School.Infrastructure;
 using School.Infrastructure.Data;
 using School.Service;
 using System;
+using School.Core.Features.Students.Mapping;
 
 namespace SchoolApi
 {
@@ -18,7 +20,7 @@ namespace SchoolApi
             builder.Configuration.AddJsonFile("appsettings.json");
             builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("defaultConnection")));
-
+            
             // Add services to the container.
 
             builder.Services.AddControllers();

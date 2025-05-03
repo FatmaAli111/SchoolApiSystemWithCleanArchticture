@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using School.Core.Features.Students.Commands.Models;
+using School.Core.Features.Students.Queries.Models;
 
 namespace SchoolApi.Controllers
 {
@@ -22,5 +23,12 @@ namespace SchoolApi.Controllers
             return  Ok(response);
 
         }
+        [HttpPost("Create")]
+        public IActionResult Create([FromBody] AddStudentCommand command)
+        {
+            var response = _mediator.Send(command);
+            return Ok(response);
+        }
+
     }
 }

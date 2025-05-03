@@ -1,4 +1,5 @@
-﻿using School.Data.Entities;
+﻿using School.Data.DTOs;
+using School.Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,5 +11,6 @@ namespace School.Service.IServices
    public interface IStudentService
     {
         Task<List<Student>> GetAllStudentsAsync();
+        Task<string> AddStudentAsync(Student studentFromRequest);
     }
 }

@@ -24,7 +24,7 @@ namespace School.Data.Entities
 
 
         [ForeignKey("Did")]
-        public Department Department;
+        public Department Department { get; set; }
 
     }
 }

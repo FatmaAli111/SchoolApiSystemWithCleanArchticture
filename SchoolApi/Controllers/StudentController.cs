@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using School.Core.Features.Students.Commands.Models;
 using School.Core.Features.Students.Queries.Models;
+using System.Threading.Tasks;
 
 namespace SchoolApi.Controllers
 {
@@ -29,6 +30,11 @@ namespace SchoolApi.Controllers
             var response = _mediator.Send(command);
             return Ok(response);
         }
-
+        [HttpGet("GetByid/{id}")]
+        public async Task<IActionResult> GetSingleStudentById(int id)
+        {
+            var request =await _mediator.Send(new GetSingleStudentById(id));
+            return  Ok(request);
+        }
     }
 }

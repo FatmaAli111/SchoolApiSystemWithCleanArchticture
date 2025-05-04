@@ -20,7 +20,7 @@ namespace School.Core.Features.Students.Mapping
 
         public static void StudentQueryById(Profile profile)
         {
-            profile.CreateMap<Student, GetSingleStudentListByIdResponse>().
+            profile.CreateMap<Student, GetSingleStudentByIdResponse>().
                   ForMember(dst => dst.DeptartmentName, src => src.MapFrom(opt => opt.Department.DName));
         }
     }

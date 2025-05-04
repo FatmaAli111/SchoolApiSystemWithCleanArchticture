@@ -37,6 +37,10 @@ namespace School.Service.Services
         {
             return await _studentRepository.GetStudentAsync();
         }
-        
+
+        public async Task<Student> GetStudentByIdAsync(int id)
+        {
+            return await _studentRepository.GetByIdAsync(id);
+        }
     }
 }

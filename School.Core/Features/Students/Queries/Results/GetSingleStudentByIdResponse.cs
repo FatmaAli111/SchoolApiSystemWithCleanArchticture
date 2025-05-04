@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace School.Core.Features.Students.Queries.Results
 {
-    public class GetSingleStudentListByIdResponse
+    public class GetSingleStudentByIdResponse
     {
         public int StudentId { get; set; }
 

@@ -12,5 +12,6 @@ namespace School.Service.IServices
     {
         Task<List<Student>> GetAllStudentsAsync();
         Task<string> AddStudentAsync(Student studentFromRequest);
+        Task<Student> GetStudentByIdAsync(int id);
     }
 }

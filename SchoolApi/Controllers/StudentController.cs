@@ -21,7 +21,7 @@ namespace SchoolApi.Controllers
         public async Task<IActionResult> GetStudentList()
         {
             var response = await _mediator.Send(new GetStudentList());
-            return  Ok(response);
+                                 return  Ok(response);
 
         }
         [HttpPost("Create")]

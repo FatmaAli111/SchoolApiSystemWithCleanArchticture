@@ -101,3 +101,5 @@ C:\Users\AB\source\repos\School_Project\SchoolApi\obj\Debug\net8.0\staticwebasse
 C:\Users\AB\source\repos\School_Project\SchoolApi\obj\Debug\net8.0\SchoolApi.csproj.Up2Date
 C:\Users\AB\source\repos\School_Project\SchoolApi\obj\Debug\net8.0\SchoolApi.genruntimeconfig.cache
 C:\Users\AB\source\repos\School_Project\SchoolApi\obj\Debug\net8.0\ref\SchoolApi.dll
+C:\Users\AB\source\repos\School_Project\SchoolApi\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\AB\source\repos\School_Project\SchoolApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

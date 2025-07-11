@@ -33,6 +33,13 @@ namespace School.Service.Services
             return "success";
         }
 
+        public async Task<string> EditStudentAsync(Student studentfromRequest)
+        {
+          await  _studentRepository.UpdateAsync(studentfromRequest);
+           
+            return "success";
+        }
+
         public async Task<List<Student>> GetAllStudentsAsync()
         {
             return await _studentRepository.GetStudentAsync();

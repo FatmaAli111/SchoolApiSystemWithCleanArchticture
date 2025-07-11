@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace School.Core.Features.Students.Commands.Handelrs
 {
-    public class StudentCommandHandler : ResponseHandler, IRequestHandler<AddStudentCommand, Response<string>>
+    public class AddStudentCommandHandler : ResponseHandler, IRequestHandler<AddStudentCommand, Response<string>>
     {
         #region fields
         private readonly IStudentService studentService;
@@ -21,7 +21,7 @@ namespace School.Core.Features.Students.Commands.Handelrs
 
 
         #region constr
-        public StudentCommandHandler(IStudentService studentService,IMapper map)
+        public AddStudentCommandHandler(IStudentService studentService,IMapper map)
         {
             this.studentService = studentService;
             this.map = map;

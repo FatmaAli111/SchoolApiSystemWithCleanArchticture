@@ -17,6 +17,7 @@ namespace School.Core.Features.Students.Mapping
             StudetCommandMapping.AddStudentCommand(this);
             StudentQueryMapping.StudentListQuery(this);
             StudentQueryMapping.StudentQueryById(this);
+            StudetCommandMapping.EditStudentCommand(this);
         }
     }
 }

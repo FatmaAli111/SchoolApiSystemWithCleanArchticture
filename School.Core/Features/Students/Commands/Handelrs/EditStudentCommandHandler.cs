@@ -26,11 +26,15 @@ namespace School.Core.Features.Students.Commands.Handelrs
         }
         public async Task<Response<string>> Handle(EditStudentCommand request, CancellationToken cancellationToken)
         {
+
             var studentMapper = map.Map<Student>(request);
           
             var studentupdate = await studentService.EditStudentAsync(studentMapper);
 
-            return Success<string>("Updated Successfully");
+            if(studentupdate=="success")
+            return Success<string>($"Updated Successfully {studentMapper}");
+           
+            return BadRequest<string>("Doesnot Updated");
         }
     }
 }

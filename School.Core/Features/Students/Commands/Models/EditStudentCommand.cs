@@ -16,5 +16,6 @@ namespace School.Core.Features.Students.Commands.Models
         public string Phone { get; set; }
         public int Did { get; set; }
 
+
     }
 }

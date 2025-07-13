@@ -35,6 +35,11 @@ namespace School.Service.Services
 
         public async Task<string> EditStudentAsync(Student studentfromRequest)
         {
+            var student = await _studentRepository.GetStudentById(studentfromRequest.StudentId);
+
+            if (student == null)
+                return "Not Exist";
+
           await  _studentRepository.UpdateAsync(studentfromRequest);
            
             return "success";

@@ -21,17 +21,17 @@ namespace School.Infrastructure.Repository
             dbset = _dbcontext.Set<Student>();
         }
 
-        public Task<List<Student>> GetStudentAsync()
+        public async Task<List<Student>> GetStudentAsync()
         {
-            throw new NotImplementedException();
+            return await dbset.ToListAsync();
         }
 
         public async Task<Student> GetStudentById(int id)
         {
-            var student =  dbset.AsNoTracking()
-                .Include(i => i.Department).
-                Where(i => i.StudentId == id).
-                FirstOrDefault();
+            var student = await
+                dbset.AsNoTracking().Include(x=>x.Department).
+                FirstOrDefaultAsync(x => x.StudentId == id);
+            ;
             return  student;
         }
     }

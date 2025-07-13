@@ -11,7 +11,7 @@
   },
   {
     "ContainingType": "SchoolApi.Controllers.StudentController",
-    "Method": "Create",
+    "Method": "CreateAsync",
     "RelativePath": "api/Student/Create",
     "HttpMethod": "POST",
     "IsController": true,
@@ -20,6 +20,22 @@
       {
         "Name": "command",
         "Type": "School.Core.Features.Students.Commands.Models.AddStudentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApi.Controllers.StudentController",
+    "Method": "EditAsync",
+    "RelativePath": "api/Student/Edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "School.Core.Features.Students.Commands.Models.EditStudentCommand",
         "IsRequired": true
       }
     ],

@@ -20,7 +20,10 @@ namespace School.Core.Features.Students.Mapping
         public static void EditStudentCommand(Profile profile)
         {
             profile.CreateMap<EditStudentCommand, Student>()
-              .ForMember(dst => dst.StudentId, src => src.Ignore());
+                .ForMember(dst => dst.StudentId, opt => opt.MapFrom(src => src.id))
+                .ForPath(dst => dst.Department.DID, opt => opt.MapFrom(src => src.Did)).
+                ForMember(dst => dst.Department, src => src.MapFrom(opt => new Department { DName = opt.StudentName }));
+            ;
         }
     }
 

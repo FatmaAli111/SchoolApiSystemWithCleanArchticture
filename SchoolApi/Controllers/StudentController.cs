@@ -25,9 +25,9 @@ namespace SchoolApi.Controllers
 
         }
         [HttpPost("Create")]
-        public IActionResult Create([FromBody] AddStudentCommand command)
+        public async Task<IActionResult> CreateAsync([FromBody] AddStudentCommand command)
         {
-            var response = _mediator.Send(command);
+            var response = await _mediator.Send(command);
             return Ok(response);
         }
         [HttpGet("GetByid/{id}")]
@@ -35,6 +35,12 @@ namespace SchoolApi.Controllers
         {
             var request =await _mediator.Send(new GetSingleStudentById(id));
             return  Ok(request);
+        }
+        [HttpPost("Edit")]
+        public async Task<IActionResult> EditAsync([FromBody] EditStudentCommand command)
+        {
+            var response = await _mediator.Send(command);
+            return Ok(response);
         }
     }
 }

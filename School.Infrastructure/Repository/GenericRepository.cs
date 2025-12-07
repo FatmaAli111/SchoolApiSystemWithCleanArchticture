@@ -12,26 +12,16 @@ namespace School.Infrastructure.Repository
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        #region Vars / Props
 
         protected readonly AppDbContext _dbContext;
+   
 
-        #endregion
-
-        #region Constructor(s)
         public GenericRepository(AppDbContext dbContext)
         {
             _dbContext = dbContext;
         }
 
-        #endregion
-
-
-        #region Methods
-
-        #endregion
-
-        #region Actions
+      
         public virtual async Task<T> GetByIdAsync(int id)
         {
 
@@ -39,7 +29,7 @@ namespace School.Infrastructure.Repository
         }
 
 
-        public IQueryable<T> GetTableNoTracking()
+        public virtual IQueryable<T> GetTableNoTracking()
         {
             return _dbContext.Set<T>().AsNoTracking().AsQueryable();
         }
@@ -117,6 +107,5 @@ namespace School.Infrastructure.Repository
             _dbContext.Set<T>().UpdateRange(entities);
             await _dbContext.SaveChangesAsync();
         }
-        #endregion
     }
 }

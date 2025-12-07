@@ -10,14 +10,14 @@ using System.Threading.Tasks;
 
 namespace School.Core.Features.Students.Mapping
 {
-   public  class StudentProfile:Profile
+   public  partial class StudentProfile:Profile
     {
         public StudentProfile()
         {
-            StudetCommandMapping.AddStudentCommand(this);
-            StudentQueryMapping.StudentListQuery(this);
-            StudentQueryMapping.StudentQueryById(this);
-            StudetCommandMapping.EditStudentCommand(this);
+            AddStudentCommand();
+            StudentListQuery();
+           StudentQueryById();
+           EditStudentCommand();
         }
     }
 }

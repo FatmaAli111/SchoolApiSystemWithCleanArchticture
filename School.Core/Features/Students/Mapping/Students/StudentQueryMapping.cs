@@ -10,17 +10,17 @@ using System.Threading.Tasks;
 
 namespace School.Core.Features.Students.Mapping
 {
-    public static class StudentQueryMapping
+    public partial class StudentProfile
     {
-        public static void StudentListQuery(Profile profile)
+        public void StudentListQuery()
         {
-            profile.CreateMap<Student, GetStudentListResponse>().
+            CreateMap<Student, GetStudentListResponse>().
                   ForMember(dst => dst.DeptartmentName, src => src.MapFrom(opt => opt.Department.DName));
         }
 
-        public static void StudentQueryById(Profile profile)
+        public void StudentQueryById()
         {
-            profile.CreateMap<Student, GetSingleStudentByIdResponse>().
+            CreateMap<Student, GetSingleStudentByIdResponse>().
                   ForMember(dst => dst.DeptartmentName, src => src.MapFrom(opt => opt.Department.DName));
         }
     }

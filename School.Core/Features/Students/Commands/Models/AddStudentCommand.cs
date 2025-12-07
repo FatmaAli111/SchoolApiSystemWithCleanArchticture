@@ -13,9 +13,9 @@ namespace School.Core.Features.Students.Commands.Models
         //هنا انا محتاجه اعمل validation لكن بدل مااعملها ب attributes
         //انا هستخدم حاجه اسمها fluent validation in base class separated from the properties
         //validators
-        public string StudentName { get; set; }
-        public string Address { get; set; }
-        public string Phone { get; set; }
+        public string? StudentName { get; set; }
+        public string? Address { get; set; }
+        public string? Phone { get; set; }
         public int Did { get; set; }
     }
 }

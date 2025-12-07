@@ -23,16 +23,9 @@ namespace School.Infrastructure.Repository
 
         public async Task<List<Student>> GetStudentAsync()
         {
-            return await dbset.ToListAsync();
+            return await _dbContext.students.Include(dept => dept.Department).ToListAsync();
         }
 
-        public async Task<Student> GetStudentById(int id)
-        {
-            var student = await
-                dbset.AsNoTracking().Include(x=>x.Department).
-                FirstOrDefaultAsync(x => x.StudentId == id);
-            ;
-            return  student;
-        }
+     
     }
 }

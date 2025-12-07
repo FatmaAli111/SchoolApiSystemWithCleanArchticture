@@ -15,6 +15,6 @@ namespace School.Core.Features.Students.Queries.Results
         public string? StudentName { get; set; }
         public string? Address { get; set; }
         public string? Phone { get; set; }
-        public string DeptartmentName { get; set; }
+        public string? DeptartmentName { get; set; }
     }
 }

@@ -7,6 +7,7 @@ using School.Infrastructure.Data;
 using School.Service;
 using System;
 using School.Core.Features.Students.Mapping;
+using Microsoft.AspNetCore.Identity;
 
 namespace SchoolApi
 {
@@ -31,6 +32,12 @@ namespace SchoolApi
             builder.Services.AddInfrastructre(builder.Configuration);
             builder.Services.AddModuleServiceDependencies(builder.Configuration);
             builder.Services.AddCoreDependencies();
+
+            //add identity
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>().
+                AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -38,6 +45,14 @@ namespace SchoolApi
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
+
+
+                //Migrate automaticalyy
+                using (var scope = app.Services.CreateScope())
+                {
+                    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+                    db.Database.Migrate();
+                }
             }
 
             app.UseAuthorization();

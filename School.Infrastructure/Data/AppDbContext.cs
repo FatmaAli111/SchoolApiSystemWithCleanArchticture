@@ -6,9 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using School.Data.Entities;
 using School.Data;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 namespace School.Infrastructure.Data
 {
-    public class AppDbContext:DbContext
+    public class AppDbContext:IdentityDbContext<ApplicationUser>
     {
         public AppDbContext()
         {

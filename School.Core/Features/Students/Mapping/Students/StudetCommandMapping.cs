@@ -10,16 +10,16 @@ using System.Threading.Tasks;
 
 namespace School.Core.Features.Students.Mapping
 {
-    public static class StudetCommandMapping
+    public partial class StudentProfile
     {
-        public static void AddStudentCommand(Profile profile)
+        public  void AddStudentCommand()
         {
-            profile.CreateMap<AddStudentCommand, Student>()
-              .ForMember(dst => dst.Department, src => src.MapFrom(opt => new Department { DName = opt.StudentName }));
+            CreateMap<AddStudentCommand, Student>();
+             // .ForMember(dst => dst.Department, src => src.MapFrom(opt => new Department { DName = opt.StudentName }));
         }
-        public static void EditStudentCommand(Profile profile)
+        public  void EditStudentCommand()
         {
-            profile.CreateMap<EditStudentCommand, Student>()
+            CreateMap<EditStudentCommand, Student>()
                 .ForMember(dst => dst.StudentId, opt => opt.MapFrom(src => src.id))
                 .ForPath(dst => dst.Department.DID, opt => opt.MapFrom(src => src.Did)).
                 ForMember(dst => dst.Department, src => src.MapFrom(opt => new Department { DName = opt.StudentName }));

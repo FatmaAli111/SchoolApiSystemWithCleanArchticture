@@ -28,14 +28,14 @@ namespace School.Service.Services
                 Include(d => d.Department);
             if (studentFromDB != null)
                 return "Exit";
-         await _studentRepository.AddAsync(studentFromRequest);
+            await _studentRepository.AddAsync(studentFromRequest);
 
             return "success";
         }
 
         public async Task<string> EditStudentAsync(Student studentfromRequest)
         {
-            var student = await _studentRepository.GetStudentById(studentfromRequest.StudentId);
+            var student = await _studentRepository.GetByIdAsync(studentfromRequest.StudentId);
 
             if (student == null)
                 return "Not Exist";

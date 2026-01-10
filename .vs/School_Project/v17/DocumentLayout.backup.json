@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\AB\\source\\repos\\School_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF3A3131-52F4-4814-8643-439B3A9B1225}|School.Infrastructure\\School.Infrastructure.csproj|c:\\users\\ab\\source\\repos\\school_project\\school.infrastructure\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF3A3131-52F4-4814-8643-439B3A9B1225}|School.Infrastructure\\School.Infrastructure.csproj|solutionrelative:school.infrastructure\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF3A3131-52F4-4814-8643-439B3A9B1225}|School.Infrastructure\\School.Infrastructure.csproj|c:\\users\\ab\\source\\repos\\school_project\\school.infrastructure\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF3A3131-52F4-4814-8643-439B3A9B1225}|School.Infrastructure\\School.Infrastructure.csproj|solutionrelative:school.infrastructure\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF3A3131-52F4-4814-8643-439B3A9B1225}|School.Infrastructure\\School.Infrastructure.csproj|c:\\users\\ab\\source\\repos\\school_project\\school.infrastructure\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF3A3131-52F4-4814-8643-439B3A9B1225}|School.Infrastructure\\School.Infrastructure.csproj|solutionrelative:school.infrastructure\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF3A3131-52F4-4814-8643-439B3A9B1225}|School.Infrastructure\\School.Infrastructure.csproj|c:\\users\\ab\\source\\repos\\school_project\\school.infrastructure\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3A3131-52F4-4814-8643-439B3A9B1225}|School.Infrastructure\\School.Infrastructure.csproj|solutionrelative:school.infrastructure\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F03E8C7-6469-47B4-A1BB-7CB391E390D0}|School.Service\\School.Service.csproj|c:\\users\\ab\\source\\repos\\school_project\\school.service\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F03E8C7-6469-47B4-A1BB-7CB391E390D0}|School.Service\\School.Service.csproj|solutionrelative:school.service\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4F46F0-F3B7-471D-9705-E743A8B07A0F}|School.Core\\School.Core.csproj|c:\\users\\ab\\source\\repos\\school_project\\school.core\\features\\students\\commands\\models\\editstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4F46F0-F3B7-471D-9705-E743A8B07A0F}|School.Core\\School.Core.csproj|solutionrelative:school.core\\features\\students\\commands\\models\\editstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4F46F0-F3B7-471D-9705-E743A8B07A0F}|School.Core\\School.Core.csproj|c:\\users\\ab\\source\\repos\\school_project\\school.core\\features\\students\\commands\\models\\addstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4F46F0-F3B7-471D-9705-E743A8B07A0F}|School.Core\\School.Core.csproj|solutionrelative:school.core\\features\\students\\commands\\models\\addstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFB50E7-A915-41AA-8043-3677A8EA8D2D}|SchoolApi\\SchoolApi.csproj|c:\\users\\ab\\source\\repos\\school_project\\schoolapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFB50E7-A915-41AA-8043-3677A8EA8D2D}|SchoolApi\\SchoolApi.csproj|solutionrelative:schoolapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3A3131-52F4-4814-8643-439B3A9B1225}|School.Infrastructure\\School.Infrastructure.csproj|c:\\users\\ab\\source\\repos\\school_project\\school.infrastructure\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3A3131-52F4-4814-8643-439B3A9B1225}|School.Infrastructure\\School.Infrastructure.csproj|solutionrelative:school.infrastructure\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B4F46F0-F3B7-471D-9705-E743A8B07A0F}|School.Core\\School.Core.csproj|c:\\users\\ab\\source\\repos\\school_project\\school.core\\features\\students\\mapping\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,14 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5B4F46F0-F3B7-471D-9705-E743A8B07A0F}|School.Core\\School.Core.csproj|c:\\users\\ab\\source\\repos\\school_project\\school.core\\features\\students\\mapping\\students\\studetcommandmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B4F46F0-F3B7-471D-9705-E743A8B07A0F}|School.Core\\School.Core.csproj|solutionrelative:school.core\\features\\students\\mapping\\students\\studetcommandmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B4F46F0-F3B7-471D-9705-E743A8B07A0F}|School.Core\\School.Core.csproj|c:\\users\\ab\\source\\repos\\school_project\\school.core\\features\\students\\commands\\models\\addstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4F46F0-F3B7-471D-9705-E743A8B07A0F}|School.Core\\School.Core.csproj|solutionrelative:school.core\\features\\students\\commands\\models\\addstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B4F46F0-F3B7-471D-9705-E743A8B07A0F}|School.Core\\School.Core.csproj|c:\\users\\ab\\source\\repos\\school_project\\school.core\\features\\students\\commands\\models\\editstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4F46F0-F3B7-471D-9705-E743A8B07A0F}|School.Core\\School.Core.csproj|solutionrelative:school.core\\features\\students\\commands\\models\\editstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AFB50E7-A915-41AA-8043-3677A8EA8D2D}|SchoolApi\\SchoolApi.csproj|c:\\users\\ab\\source\\repos\\school_project\\schoolapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -76,45 +80,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 14,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IstudentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Infrastructure\\Interfaces\\IstudentRepository.cs",
-              "RelativeDocumentMoniker": "School.Infrastructure\\Interfaces\\IstudentRepository.cs",
-              "ToolTip": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Infrastructure\\Interfaces\\IstudentRepository.cs*",
-              "RelativeToolTip": "School.Infrastructure\\Interfaces\\IstudentRepository.cs*",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwAkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T09:20:38.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Service\\Services\\StudentService.cs",
-              "RelativeDocumentMoniker": "School.Service\\Services\\StudentService.cs",
-              "ToolTip": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Service\\Services\\StudentService.cs*",
-              "RelativeToolTip": "School.Service\\Services\\StudentService.cs*",
-              "ViewState": "AgIAAAwAAADAMTMzMzMrwBAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T09:20:10.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Infrastructure\\Repository\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "School.Infrastructure\\Repository\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Infrastructure\\Repository\\GenericRepository.cs*",
-              "RelativeToolTip": "School.Infrastructure\\Repository\\GenericRepository.cs*",
-              "ViewState": "AgIAABEAAABAeJmZmZkdwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T09:17:54.147Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -157,7 +122,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Service\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "School.Service\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Service\\Services\\StudentService.cs",
+              "RelativeToolTip": "School.Service\\Services\\StudentService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T09:20:10.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Infrastructure\\Repository\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "School.Infrastructure\\Repository\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Infrastructure\\Repository\\StudentRepository.cs",
+              "RelativeToolTip": "School.Infrastructure\\Repository\\StudentRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T09:03:01.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditStudentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Core\\Features\\Students\\Commands\\Models\\EditStudentCommand.cs",
+              "RelativeDocumentMoniker": "School.Core\\Features\\Students\\Commands\\Models\\EditStudentCommand.cs",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Core\\Features\\Students\\Commands\\Models\\EditStudentCommand.cs",
+              "RelativeToolTip": "School.Core\\Features\\Students\\Commands\\Models\\EditStudentCommand.cs",
+              "ViewState": "AgIAAAcAAACmmJmZmZkhwA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T08:58:57.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "AddStudentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Core\\Features\\Students\\Commands\\Models\\AddStudentCommand.cs",
+              "RelativeDocumentMoniker": "School.Core\\Features\\Students\\Commands\\Models\\AddStudentCommand.cs",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Core\\Features\\Students\\Commands\\Models\\AddStudentCommand.cs",
+              "RelativeToolTip": "School.Core\\Features\\Students\\Commands\\Models\\AddStudentCommand.cs",
+              "ViewState": "AgIAAAcAAABAZGZmZmYewA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T08:57:33.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Infrastructure\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "School.Infrastructure\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Infrastructure\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "School.Infrastructure\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAEQAAAAAAM3MzMzMvzgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T09:17:54.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\SchoolApi\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "SchoolApi\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\School_Project\\SchoolApi\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "SchoolApi\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T10:13:47.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "StudentProfile.cs",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Core\\Features\\Students\\Mapping\\StudentProfile.cs",
               "RelativeDocumentMoniker": "School.Core\\Features\\Students\\Mapping\\StudentProfile.cs",
@@ -165,25 +208,23 @@
               "RelativeToolTip": "School.Core\\Features\\Students\\Mapping\\StudentProfile.cs",
               "ViewState": "AgIAAAkAAACAZWZmZmYcwBAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T09:09:23.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T09:09:23.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Infrastructure\\Repository\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "School.Infrastructure\\Repository\\StudentRepository.cs",
-              "ToolTip": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Infrastructure\\Repository\\StudentRepository.cs*",
-              "RelativeToolTip": "School.Infrastructure\\Repository\\StudentRepository.cs*",
-              "ViewState": "AgIAABEAAAComZmZmZk2wBwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IstudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Infrastructure\\Interfaces\\IstudentRepository.cs",
+              "RelativeDocumentMoniker": "School.Infrastructure\\Interfaces\\IstudentRepository.cs",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Infrastructure\\Interfaces\\IstudentRepository.cs",
+              "RelativeToolTip": "School.Infrastructure\\Interfaces\\IstudentRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T09:03:01.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T09:20:38.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "GetStudentListResponse.cs",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Core\\Features\\Students\\Queries\\Results\\GetStudentListResponse.cs",
               "RelativeDocumentMoniker": "School.Core\\Features\\Students\\Queries\\Results\\GetStudentListResponse.cs",
@@ -191,38 +232,11 @@
               "RelativeToolTip": "School.Core\\Features\\Students\\Queries\\Results\\GetStudentListResponse.cs",
               "ViewState": "AgIAAAkAAABAMjMzMzMvwBEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T09:00:15.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T09:00:15.655Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EditStudentCommand.cs",
-              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Core\\Features\\Students\\Commands\\Models\\EditStudentCommand.cs",
-              "RelativeDocumentMoniker": "School.Core\\Features\\Students\\Commands\\Models\\EditStudentCommand.cs",
-              "ToolTip": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Core\\Features\\Students\\Commands\\Models\\EditStudentCommand.cs",
-              "RelativeToolTip": "School.Core\\Features\\Students\\Commands\\Models\\EditStudentCommand.cs",
-              "ViewState": "AgIAAAgAAABwZWZmZmYowA4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T08:58:57.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddStudentCommand.cs",
-              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Core\\Features\\Students\\Commands\\Models\\AddStudentCommand.cs",
-              "RelativeDocumentMoniker": "School.Core\\Features\\Students\\Commands\\Models\\AddStudentCommand.cs",
-              "ToolTip": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Core\\Features\\Students\\Commands\\Models\\AddStudentCommand.cs",
-              "RelativeToolTip": "School.Core\\Features\\Students\\Commands\\Models\\AddStudentCommand.cs",
-              "ViewState": "AgIAAAoAAAAwZmZmZmYywA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T08:57:33.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "StudetCommandMapping.cs",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Core\\Features\\Students\\Mapping\\Students\\StudetCommandMapping.cs",
               "RelativeDocumentMoniker": "School.Core\\Features\\Students\\Mapping\\Students\\StudetCommandMapping.cs",
@@ -230,12 +244,11 @@
               "RelativeToolTip": "School.Core\\Features\\Students\\Mapping\\Students\\StudetCommandMapping.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAByPQ8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T08:56:18.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T08:56:18.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "StudentQueryMapping.cs",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Core\\Features\\Students\\Mapping\\Students\\StudentQueryMapping.cs",
               "RelativeDocumentMoniker": "School.Core\\Features\\Students\\Mapping\\Students\\StudentQueryMapping.cs",
@@ -243,12 +256,11 @@
               "RelativeToolTip": "School.Core\\Features\\Students\\Mapping\\Students\\StudentQueryMapping.cs",
               "ViewState": "AgIAAAoAAADALDMzMzMbwBAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T08:54:25.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T08:54:25.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "20250713011238_New.cs",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Infrastructure\\Migrations\\20250713011238_New.cs",
               "RelativeDocumentMoniker": "School.Infrastructure\\Migrations\\20250713011238_New.cs",
@@ -260,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SchoolApi.csproj",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\SchoolApi\\SchoolApi.csproj",
               "RelativeDocumentMoniker": "SchoolApi\\SchoolApi.csproj",
@@ -272,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Data\\Entities\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "School.Data\\Entities\\ApplicationUser.cs",
@@ -284,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "School.Infrastructure\\Data\\AppDbContext.cs",
@@ -296,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "School.Data.csproj",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Data\\School.Data.csproj",
               "RelativeDocumentMoniker": "School.Data\\School.Data.csproj",
@@ -308,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\School_Project\\SchoolApi\\Program.cs",
               "RelativeDocumentMoniker": "SchoolApi\\Program.cs",
@@ -316,8 +328,7 @@
               "RelativeToolTip": "SchoolApi\\Program.cs",
               "ViewState": "AgIAAA4AAACQzMzMzAwkwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T00:42:33.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T00:42:33.874Z"
             }
           ]
         }

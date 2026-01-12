@@ -3,7 +3,6 @@ C:\Users\AB\source\repos\School_Project\SchoolApi\obj\Debug\net8.0\SchoolApi.Gen
 C:\Users\AB\source\repos\School_Project\SchoolApi\obj\Debug\net8.0\SchoolApi.AssemblyInfoInputs.cache
 C:\Users\AB\source\repos\School_Project\SchoolApi\obj\Debug\net8.0\SchoolApi.AssemblyInfo.cs
 C:\Users\AB\source\repos\School_Project\SchoolApi\obj\Debug\net8.0\SchoolApi.csproj.CoreCompileInputs.cache
-C:\Users\AB\source\repos\School_Project\SchoolApi\obj\Debug\net8.0\SchoolApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\AB\source\repos\School_Project\SchoolApi\obj\Debug\net8.0\SchoolApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\AB\source\repos\School_Project\SchoolApi\obj\Debug\net8.0\SchoolApi.sourcelink.json
 C:\Users\AB\source\repos\School_Project\SchoolApi\obj\Debug\net8.0\SchoolApi.dll
@@ -190,3 +189,4 @@ C:\Users\AB\source\repos\School_Project\SchoolApi\bin\Debug\net8.0\ru\Microsoft.
 C:\Users\AB\source\repos\School_Project\SchoolApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\AB\source\repos\School_Project\SchoolApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\AB\source\repos\School_Project\SchoolApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\AB\source\repos\School_Project\SchoolApi\obj\Debug\net8.0\SchoolApi.MvcApplicationPartsAssemblyInfo.cs

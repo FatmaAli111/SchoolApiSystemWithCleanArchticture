@@ -1,5 +1,9 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using FluentValidation;
+using MediatR;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using School.Core.Behaviors;
+using School.Core.Features.Students.Commands.Validators;
 using School.Core.Features.Students.Mapping;
 using School.Infrastructure.Interfaces;
 using School.Infrastructure.Repository;
@@ -19,7 +23,10 @@ namespace School.Core
             {
                 service.AddMediatR(c=>c.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
                 service.AddAutoMapper(typeof(StudentProfile).Assembly);
-                return service;
+
+                service.AddValidatorsFromAssembly(typeof(AddStudentValidators).Assembly);
+            service.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+            return service;
 
             }
         

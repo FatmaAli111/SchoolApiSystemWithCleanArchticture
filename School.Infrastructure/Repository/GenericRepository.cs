@@ -31,7 +31,7 @@ namespace School.Infrastructure.Repository
 
         public virtual IQueryable<T> GetTableNoTracking()
         {
-            return _dbContext.Set<T>().AsNoTracking().AsQueryable();
+            return _dbContext.Set<T>().AsNoTracking();
         }
 
 

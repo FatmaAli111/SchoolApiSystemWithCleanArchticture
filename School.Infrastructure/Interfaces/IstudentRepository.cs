@@ -10,5 +10,6 @@ namespace School.Infrastructure.Interfaces
     public interface IStudentRepository:IGenericRepository<Student>
     {
         Task<List<Student>> GetStudentAsync();
+        string GetStudentByName(Student studentFromRequest);
     }
 }

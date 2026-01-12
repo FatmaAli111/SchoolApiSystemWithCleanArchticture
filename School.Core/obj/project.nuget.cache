@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Z2y5XenZXaw=",
+  "dgSpecHash": "yeG3nomlY6U=",
   "success": true,
   "projectFilePath": "C:\\Users\\AB\\source\\repos\\School_Project\\School.Core\\School.Core.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,8 @@
     "C:\\Users\\AB\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\AB\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.18\\microsoft.aspnetcore.cryptography.internal.8.0.18.nupkg.sha512",
     "C:\\Users\\AB\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.18\\microsoft.aspnetcore.cryptography.keyderivation.8.0.18.nupkg.sha512",
+    "C:\\Users\\AB\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.9\\microsoft.aspnetcore.http.abstractions.2.3.9.nupkg.sha512",
+    "C:\\Users\\AB\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
     "C:\\Users\\AB\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\8.0.18\\microsoft.aspnetcore.identity.entityframeworkcore.8.0.18.nupkg.sha512",
     "C:\\Users\\AB\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\AB\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

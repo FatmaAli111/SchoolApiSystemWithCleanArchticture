@@ -8,6 +8,7 @@ using School.Service;
 using System;
 using School.Core.Features.Students.Mapping;
 using Microsoft.AspNetCore.Identity;
+using School.Core.MiddleWares;
 
 namespace SchoolApi
 {
@@ -54,6 +55,7 @@ namespace SchoolApi
                     db.Database.Migrate();
                 }
             }
+           app.UseMiddleware<ErrorHandlerMiddleware>();
 
             app.UseAuthorization();
 

@@ -26,6 +26,12 @@ namespace School.Infrastructure.Repository
             return await _dbContext.students.Include(dept => dept.Department).ToListAsync();
         }
 
-     
+        public  string GetStudentByName(Student studentFromRequest)
+        {
+            var result=  _dbcontext.students.Where(s => s.StudentName == studentFromRequest.StudentName);
+            if (result != null)
+                return "Exist";
+            return "NotExist";
+        }
     }
 }

@@ -23,10 +23,9 @@ namespace School.Service.Services
 
         public async Task<string> AddStudentAsync(Student studentFromRequest)
         {
-            var studentFromDB = _studentRepository.GetTableNoTracking().
-                Where(s => s.StudentName == studentFromRequest.StudentName).
-                Include(d => d.Department);
-            if (studentFromDB != null)
+            var studentFromDB = _studentRepository.GetStudentByName(studentFromRequest);
+
+            if (studentFromDB != "Exist")
                 return "Exit";
             await _studentRepository.AddAsync(studentFromRequest);
 
@@ -36,7 +35,7 @@ namespace School.Service.Services
         public async Task<string> EditStudentAsync(Student studentfromRequest)
         {
             var student = await _studentRepository.GetByIdAsync(studentfromRequest.StudentId);
-
+           
             if (student == null)
                 return "Not Exist";
 

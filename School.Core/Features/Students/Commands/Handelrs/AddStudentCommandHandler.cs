@@ -34,7 +34,7 @@ namespace School.Core.Features.Students.Commands.Handelrs
             var result = map.Map<Student>(request);
             var finalResult =await studentService.AddStudentAsync(result);
            
-            if (finalResult == "exist")
+            if (finalResult == "Exit")
                 return BadRequest<string>("Name Exist");
             return Success<string>("success"); 
         }

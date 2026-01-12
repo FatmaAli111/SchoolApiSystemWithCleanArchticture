@@ -130,7 +130,7 @@
       "EditStudentCommand": {
         "type": "object",
         "properties": {
-          "id": {
+          "studentId": {
             "type": "integer",
             "format": "int32"
           },

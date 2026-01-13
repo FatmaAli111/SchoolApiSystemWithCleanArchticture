@@ -27,6 +27,22 @@
   },
   {
     "ContainingType": "SchoolApi.Controllers.StudentController",
+    "Method": "Delete",
+    "RelativePath": "api/Student/Delet/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApi.Controllers.StudentController",
     "Method": "EditAsync",
     "RelativePath": "api/Student/Edit",
     "HttpMethod": "POST",

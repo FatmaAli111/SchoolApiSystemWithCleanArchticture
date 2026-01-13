@@ -34,11 +34,7 @@ namespace School.Service.Services
 
         public async Task<string> EditStudentAsync(Student studentfromRequest)
         {
-            var student = await _studentRepository.GetByIdAsync(studentfromRequest.StudentId);
-           
-            if (student == null)
-                return "Not Exist";
-
+          
           await  _studentRepository.UpdateAsync(studentfromRequest);
            
             return "success";
@@ -51,7 +47,15 @@ namespace School.Service.Services
 
         public async Task<Student> GetStudentByIdAsync(int id)
         {
-            return await _studentRepository.GetByIdAsync(id);
+            var Result= await _studentRepository.GetByIdAsync(id);
+            return Result;
+        }
+        public async Task<string> DeleteAsync(Student student)
+        {
+            
+             await _studentRepository.DeleteAsync(student);
+            return "Success";
+
         }
     }
 }

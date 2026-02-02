@@ -1,5 +1,6 @@
 ﻿using School.Data.DTOs;
 using School.Data.Entities;
+using SchoolProject.Data.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,8 @@ namespace School.Service.IServices
         Task<string> EditStudentAsync(Student studentfromRequest);
         Task<string> DeleteAsync(Student student);
         IQueryable<Student> GetStudentsQueryable();
+        IQueryable<Student> FilterStudentsQueryable(StudentOrderingEnum orderingEnum,string search);
+
 
     }
 }

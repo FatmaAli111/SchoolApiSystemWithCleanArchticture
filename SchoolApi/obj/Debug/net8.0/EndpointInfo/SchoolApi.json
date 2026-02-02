@@ -151,10 +151,7 @@
             "name": "orderBy",
             "in": "query",
             "schema": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
+              "$ref": "#/components/schemas/StudentOrderingEnum"
             }
           },
           {
@@ -222,6 +219,16 @@
           }
         },
         "additionalProperties": false
+      },
+      "StudentOrderingEnum": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
       }
     }
   }

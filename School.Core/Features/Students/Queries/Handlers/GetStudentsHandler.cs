@@ -53,9 +53,15 @@ namespace School.Core.Features.Students.Commands.Handelrs
         {
             Expression<Func<Student, GetPaginatedStudentResponse>> expression = e => 
             new GetPaginatedStudentResponse(e.StudentId, e.StudentName, e.Address, e.Phone, e.Department.DName);
-            var queryable = _studentService.GetStudentsQueryable();
-
-            var paginatedStudents =await queryable.Select(expression).ToPaginatedListAsync(request.pageNumber, request.pageSize);
+            //var queryable = _studentService.GetStudentsQueryable();
+            
+            //var paginatedStudents =await queryable.Select(expression).ToPaginatedListAsync(request.pageNumber, request.pageSize);
+          
+          
+                var searchStudents = _studentService.FilterStudentsQueryable(request.orderBy,request.search);
+                var paginatedStudents = await searchStudents.Select(expression).ToPaginatedListAsync
+                (request.pageNumber, request.pageSize);
+            
             return paginatedStudents;
         }
     }

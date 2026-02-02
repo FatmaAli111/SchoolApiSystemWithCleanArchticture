@@ -4,6 +4,7 @@ using School.Data.Entities;
 using School.Infrastructure.Data;
 using School.Infrastructure.Interfaces;
 using School.Service.IServices;
+using SchoolProject.Data.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,5 +63,34 @@ namespace School.Service.Services
         {
             return  _studentRepository.GetTableNoTracking().Include(s=>s.Department).AsQueryable();
         }
+
+        public IQueryable<Student> FilterStudentsQueryable (StudentOrderingEnum orderingEnum, string search)
+        {
+            var querable = _studentRepository.GetTableNoTracking().Include(s => s.Department).AsQueryable();
+            if (search != null)
+            {
+                querable = querable.Where(x => x.StudentName.Contains(search) || x.Address.Contains(search));
+            }
+
+            switch (orderingEnum)
+            {
+               
+                case StudentOrderingEnum.Name:
+                    querable = querable.OrderBy(x => x.StudentName);
+                    break;
+                case StudentOrderingEnum.Address:
+                    querable = querable.OrderBy(x => x.Address);
+                    break;
+                case StudentOrderingEnum.DepartmentName:
+                    querable = querable.OrderBy(x => x.Department.DName);
+                    break;
+                default:
+                    querable = querable.OrderBy(x => x.StudentId);
+                    break;
+            }
+
+            return querable;
+        }
+
     }
 }

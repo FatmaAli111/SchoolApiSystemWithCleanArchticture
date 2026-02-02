@@ -5,6 +5,7 @@ using School.Core.Bases;
 using School.Core.Features.Students.Commands.Models;
 using School.Core.Features.Students.Queries.Models;
 using SchoolApi.Base;
+using System.Reflection.Metadata.Ecma335;
 using System.Threading.Tasks;
 
 namespace SchoolApi.Controllers
@@ -44,6 +45,13 @@ namespace SchoolApi.Controllers
         {
            var response =await _mediator.Send(new DeleteStudentByIdCommand(id));
             return NewResult(response);
+        }
+        [HttpGet("GetPaginatedStudents")]
+        public async Task<IActionResult> GetPaginatedStudents([FromQuery] GetPaginatedStudents query)
+        {
+            var response =await _mediator.Send(query);
+
+            return Ok(response);
         }
     }
 }

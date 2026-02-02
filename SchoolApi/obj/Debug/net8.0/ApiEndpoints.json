@@ -72,5 +72,36 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApi.Controllers.StudentController",
+    "Method": "GetPaginatedStudents",
+    "RelativePath": "api/Student/GetPaginatedStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -6,16 +6,20 @@ using School.Core.Features.Students.Queries.Results;
 using School.Data.Entities;
 using School.Service.IServices;
 using School.Service.Services;
+using SchoolProject.Core.Wrappers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace School.Core.Features.Students.Commands.Handelrs
 {
-   public class GetStudentsHandler :ResponseHandler, IRequestHandler<GetStudentList, Response<List<GetStudentListResponse>>>
-        ,IRequestHandler<GetSingleStudentById,Response<GetSingleStudentByIdResponse>>
+   public class GetStudentsHandler :ResponseHandler,
+        IRequestHandler<GetStudentList, Response<List<GetStudentListResponse>>>
+        ,IRequestHandler<GetSingleStudentById,Response<GetSingleStudentByIdResponse>>,
+        IRequestHandler<GetPaginatedStudents,PaginatedResult<GetPaginatedStudentResponse>>
     {
         private readonly IStudentService _studentService;
         private readonly IMapper _mapper;
@@ -42,6 +46,17 @@ namespace School.Core.Features.Students.Commands.Handelrs
                 return  NotFound<GetSingleStudentByIdResponse>("Student Not Found");
             var resuult = _mapper.Map<GetSingleStudentByIdResponse>(studentFromDB);
             return Success<GetSingleStudentByIdResponse>(resuult);
+        }
+
+
+        async Task<PaginatedResult<GetPaginatedStudentResponse>> IRequestHandler<GetPaginatedStudents, PaginatedResult<GetPaginatedStudentResponse>>.Handle(GetPaginatedStudents request, CancellationToken cancellationToken)
+        {
+            Expression<Func<Student, GetPaginatedStudentResponse>> expression = e => 
+            new GetPaginatedStudentResponse(e.StudentId, e.StudentName, e.Address, e.Phone, e.Department.DName);
+            var queryable = _studentService.GetStudentsQueryable();
+
+            var paginatedStudents =await queryable.Select(expression).ToPaginatedListAsync(request.pageNumber, request.pageSize);
+            return paginatedStudents;
         }
     }
 }

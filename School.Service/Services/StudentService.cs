@@ -57,5 +57,10 @@ namespace School.Service.Services
             return "Success";
 
         }
+
+        public  IQueryable<Student> GetStudentsQueryable()
+        {
+            return  _studentRepository.GetTableNoTracking().Include(s=>s.Department).AsQueryable();
+        }
     }
 }

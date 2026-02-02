@@ -15,6 +15,7 @@ namespace School.Service.IServices
         Task<Student> GetStudentByIdAsync(int id);
         Task<string> EditStudentAsync(Student studentfromRequest);
         Task<string> DeleteAsync(Student student);
+        IQueryable<Student> GetStudentsQueryable();
 
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "15x+HGfgikg=",
+  "dgSpecHash": "tuCM+IvHZ6k=",
   "success": true,
   "projectFilePath": "C:\\Users\\AB\\source\\repos\\School_Project\\SchoolApi\\SchoolApi.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "C:\\Users\\AB\\.nuget\\packages\\microsoft.extensions.dependencymodel\\9.0.7\\microsoft.extensions.dependencymodel.9.0.7.nupkg.sha512",
     "C:\\Users\\AB\\.nuget\\packages\\microsoft.extensions.identity.core\\8.0.18\\microsoft.extensions.identity.core.8.0.18.nupkg.sha512",
     "C:\\Users\\AB\\.nuget\\packages\\microsoft.extensions.identity.stores\\8.0.18\\microsoft.extensions.identity.stores.8.0.18.nupkg.sha512",
+    "C:\\Users\\AB\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\10.0.3\\microsoft.extensions.localization.abstractions.10.0.3.nupkg.sha512",
     "C:\\Users\\AB\\.nuget\\packages\\microsoft.extensions.logging\\9.0.7\\microsoft.extensions.logging.9.0.7.nupkg.sha512",
     "C:\\Users\\AB\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.7\\microsoft.extensions.logging.abstractions.9.0.7.nupkg.sha512",
     "C:\\Users\\AB\\.nuget\\packages\\microsoft.extensions.options\\9.0.7\\microsoft.extensions.options.9.0.7.nupkg.sha512",

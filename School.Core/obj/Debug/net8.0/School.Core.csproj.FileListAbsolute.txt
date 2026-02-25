@@ -18,3 +18,10 @@ C:\Users\AB\source\repos\School_Project\School.Core\obj\Debug\net8.0\refint\Scho
 C:\Users\AB\source\repos\School_Project\School.Core\obj\Debug\net8.0\School.Core.pdb
 C:\Users\AB\source\repos\School_Project\School.Core\obj\Debug\net8.0\ref\School.Core.dll
 C:\Users\AB\source\repos\School_Project\School.Core\obj\Debug\net8.0\School.Core.sourcelink.json
+C:\Users\AB\source\repos\School_Project\School.Core\bin\Debug\net8.0\Ar\School.Core.resources.dll
+C:\Users\AB\source\repos\School_Project\School.Core\bin\Debug\net8.0\En\School.Core.resources.dll
+C:\Users\AB\source\repos\School_Project\School.Core\obj\Debug\net8.0\School.Core.csproj.GenerateResource.cache
+C:\Users\AB\source\repos\School_Project\School.Core\obj\Debug\net8.0\Ar\School.Core.resources.dll
+C:\Users\AB\source\repos\School_Project\School.Core\obj\Debug\net8.0\En\School.Core.resources.dll
+C:\Users\AB\source\repos\School_Project\School.Core\obj\Debug\net8.0\School.Core.Resources.SharedResources.Ar.resources
+C:\Users\AB\source\repos\School_Project\School.Core\obj\Debug\net8.0\School.Core.Resources.SharedResources.En.resources

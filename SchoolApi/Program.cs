@@ -9,6 +9,9 @@ using System;
 using School.Core.Features.Students.Mapping;
 using Microsoft.AspNetCore.Identity;
 using School.Core.MiddleWares;
+using Microsoft.AspNetCore.Localization;
+using System.Globalization;
+using Microsoft.Extensions.Options;
 
 namespace SchoolApi
 {
@@ -38,8 +41,32 @@ namespace SchoolApi
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>().
                 AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
+            // Localization
+            builder.Services.AddControllersWithViews();
+            builder.Services.AddLocalization(opt =>
+            {
+                opt.ResourcesPath = "";
+            });
+
+            builder.Services.Configure<RequestLocalizationOptions>(options =>
+            {
+                List<CultureInfo> supportedCultures = new List<CultureInfo>
+    {
+            new CultureInfo("en-US"),
+            new CultureInfo("de-DE"),
+            new CultureInfo("fr-FR"),
+            new CultureInfo("ar-EG")
+    };
+
+                options.DefaultRequestCulture = new RequestCulture("en-US");
+                options.SupportedCultures = supportedCultures;
+                options.SupportedUICultures = supportedCultures;
+            });
+
 
             var app = builder.Build();
+
+       
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -55,7 +82,9 @@ namespace SchoolApi
                     db.Database.Migrate();
                 }
             }
-           app.UseMiddleware<ErrorHandlerMiddleware>();
+            var options = app.Services.GetService<IOptions<RequestLocalizationOptions>>();
+            app.UseRequestLocalization(options.Value);
+            app.UseMiddleware<ErrorHandlerMiddleware>();
 
             app.UseAuthorization();
 

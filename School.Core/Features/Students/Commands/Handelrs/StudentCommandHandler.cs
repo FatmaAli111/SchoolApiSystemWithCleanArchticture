@@ -60,7 +60,7 @@ namespace School.Core.Features.Students.Commands.Handelrs
             if (studentupdate == "success")
                 return Success<string>($"Updated Successfully {studentMapper}");
 
-            return BadRequest<string>("Doesnot Updated");
+            return BadRequest<string>("Does not Updated");
         }
 
         public async Task<Response<string>> Handle(DeleteStudentByIdCommand request, CancellationToken cancellationToken)

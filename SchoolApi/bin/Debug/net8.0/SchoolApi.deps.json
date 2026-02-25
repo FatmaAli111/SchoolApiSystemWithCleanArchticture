@@ -694,6 +694,14 @@
           }
         }
       },
+      "Microsoft.Extensions.Localization.Abstractions/10.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.326.7603"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/9.0.7": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "9.0.7",
@@ -1218,6 +1226,7 @@
           "FluentValidation.DependencyInjectionExtensions": "12.0.0",
           "MediatR": "12.5.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.3.9",
+          "Microsoft.Extensions.Localization.Abstractions": "10.0.3",
           "School.Data": "1.0.0",
           "School.Infrastructure": "1.0.0",
           "School.Service": "1.0.0"
@@ -1226,6 +1235,14 @@
           "School.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        },
+        "resources": {
+          "Ar/School.Core.resources.dll": {
+            "locale": "Ar"
+          },
+          "En/School.Core.resources.dll": {
+            "locale": "En"
           }
         }
       },
@@ -1560,6 +1577,13 @@
       "sha512": "sha512-2r+sYR9Njhj3X2AoqZd6fxlUEKy2OlCz+PNYH2AkQTmNJnX/ivrtTbmIkqB3wZ/M5Rv716Y2VNcdC9irmu8/dA==",
       "path": "microsoft.extensions.identity.stores/8.0.18",
       "hashPath": "microsoft.extensions.identity.stores.8.0.18.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Localization.Abstractions/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GkJqsJuyzNYALUzQCv5K+NQpzQHagEBCxSXVPnhEF/ieIC6IEgCiA7nm/V8vw0ldLpF2S8GUE26IPX2P7Xhq0A==",
+      "path": "microsoft.extensions.localization.abstractions/10.0.3",
+      "hashPath": "microsoft.extensions.localization.abstractions.10.0.3.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/9.0.7": {
       "type": "package",

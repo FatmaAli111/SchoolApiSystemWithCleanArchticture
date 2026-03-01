@@ -12,8 +12,8 @@ namespace School.Data
     public class StudentSubject
     {
         [Key]
-        public int StudSubID { get; set; }
         public int StudID { get; set; }
+        [Key]
         public int SubID { get; set; }
 
         [ForeignKey("StudID")]

@@ -22,7 +22,7 @@ namespace School.Data.Entities
 
         public int Did { get; set; }
 
-
+        [InverseProperty("Students")]
         [ForeignKey("Did")]
         public Department Department { get; set; }
 

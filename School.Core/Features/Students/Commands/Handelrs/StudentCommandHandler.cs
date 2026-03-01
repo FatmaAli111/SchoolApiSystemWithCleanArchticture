@@ -51,7 +51,7 @@ namespace School.Core.Features.Students.Commands.Handelrs
             if (student == null)
                 return NotFound<string>("Not found");
 
-            var studentMapper = map.Map(request, student);
+            var studentMapper = map.Map(request, student);//بنستخدم مابنج بالطريقة دي عشان لو بعدل جزء من الداتا بس باقي الداتا متضيعش
 
             var studentupdate = await studentService.EditStudentAsync(studentMapper);
 

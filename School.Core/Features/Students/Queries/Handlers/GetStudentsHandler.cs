@@ -38,8 +38,12 @@ namespace School.Core.Features.Students.Commands.Handelrs
 
             var studentList= await _studentService.GetAllStudentsAsync();
             var studentListMapper = _mapper.Map<List<GetStudentListResponse>>(studentList);
-            return Success(studentListMapper);
+            var result= Success(studentListMapper);
+            result.Meta = new { Count = studentListMapper.Count(),
+                FirstStudent = studentListMapper.FirstOrDefault()
 
+            };
+            return result;
         }
 
         public async Task<Response<GetSingleStudentByIdResponse>> Handle(GetSingleStudentById request, CancellationToken cancellationToken)
@@ -66,7 +70,9 @@ namespace School.Core.Features.Students.Commands.Handelrs
                 var paginatedStudents = await searchStudents.Select(expression).ToPaginatedListAsync
                 (request.pageNumber, request.pageSize);
             
-            return paginatedStudents;
+            var result= paginatedStudents;
+            result.Meta = new { Count = paginatedStudents.TotalCount };
+            return result;
         }
     }
 }

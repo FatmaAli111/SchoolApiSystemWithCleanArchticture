@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Student": {
+    "/api/Student/GetAllStudents": {
       "get": {
         "tags": [
           "Student"

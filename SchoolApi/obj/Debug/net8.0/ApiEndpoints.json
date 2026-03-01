@@ -1,16 +1,6 @@
 [
   {
     "ContainingType": "SchoolApi.Controllers.StudentController",
-    "Method": "GetStudentList",
-    "RelativePath": "api/Student",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SchoolApi.Controllers.StudentController",
     "Method": "CreateAsync",
     "RelativePath": "api/Student/Create",
     "HttpMethod": "POST",
@@ -55,6 +45,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolApi.Controllers.StudentController",
+    "Method": "GetStudentList",
+    "RelativePath": "api/Student/GetAllStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

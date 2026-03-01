@@ -15,7 +15,7 @@ namespace SchoolApi.Controllers
     public class StudentController : AppControllerBase
     {
        
-        [HttpGet]
+        [HttpGet("GetAllStudents")]
         public async Task<IActionResult> GetStudentList()
         {
             var response = await _mediator.Send(new GetStudentList());
